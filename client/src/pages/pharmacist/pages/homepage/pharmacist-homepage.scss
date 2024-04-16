@@ -1,0 +1,52 @@
+.pharmacist-homepage-container {
+    width: 100%;
+    background: rgba(195, 193, 193, 0.363);
+    .to-do-container{
+        margin: 20px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        .to-do-header{
+            h2{
+
+            }
+            p{
+                color: gray;
+            }
+        }
+        .to-do-grid{
+            
+            .to-do-box{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-row-gap:15px ;
+                .to-do-box-aitem{
+                    text-decoration: none;
+                    border-right: 1px solid gray;
+                    .to-do-item-title{
+                        color: rgb(61, 78, 176);
+                        font-weight: 600;
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    .to-do-item-desc{
+                        text-align: center;
+                        color: #484848;
+                        font-size: 12px;
+                        
+                    }
+                    &:nth-child(4), &:last-child{
+                        border-right: none;
+                    }
+                    &:hover{
+                        background: rgba(180, 179, 179, 0.242);
+                        border-radius: 5px;
+                    }
+
+                }
+            }
+        }
+    }
+}

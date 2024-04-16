@@ -1,0 +1,44 @@
+.pharmacist-header {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 1px 4px 0 rgba(74, 74, 78, 0.12);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pharmacist-header .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+.pharmacist-header .logo img {
+  width: 40px;
+}
+.pharmacist-header .logo nav {
+  font-size: 15px;
+  font-weight: 600;
+}
+.pharmacist-header .pharmacist-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.pharmacist-header .pharmacist-info .avartar {
+  margin-right: 15px;
+}
+.pharmacist-header .pharmacist-info .avartar img {
+  width: 40px;
+  border-radius: 50%;
+}
+.pharmacist-header .pharmacist-info .pharmacist-name p {
+  align-items: center;
+  margin-bottom: 0;
+  font-weight: 550;
+}/*# sourceMappingURL=pharmacist-header.css.map */

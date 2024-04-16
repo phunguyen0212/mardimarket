@@ -1,0 +1,36 @@
+.pharmacist-menubar {
+  position: relative;
+  height: 100%;
+  background: white;
+}
+.pharmacist-menubar .pharmacist-dropdown-menu {
+  width: 300px;
+  background: white;
+  position: fixed;
+}
+.pharmacist-menubar .pharmacist-dropdown-menu li {
+  position: relative;
+}
+.pharmacist-menubar .pharmacist-dropdown-menu li a {
+  color: gray;
+  font-weight: 600;
+  display: block;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.pharmacist-menubar .pharmacist-dropdown-menu li .icon-menu {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 14px;
+  padding: 8px;
+  cursor: pointer;
+}
+.pharmacist-menubar .pharmacist-dropdown-menu li .pharmacist-sub-menu {
+  background: white;
+}
+.pharmacist-menubar .pharmacist-dropdown-menu li .pharmacist-sub-menu li a {
+  padding-left: 28px;
+  color: #9b9b9b;
+}/*# sourceMappingURL=pharmacist-menubar.css.map */

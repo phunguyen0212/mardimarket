@@ -1,0 +1,42 @@
+.pharmacist-homepage-container {
+  width: 100%;
+  background: rgba(195, 193, 193, 0.363);
+}
+.pharmacist-homepage-container .to-do-container {
+  margin: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.pharmacist-homepage-container .to-do-container .to-do-header p {
+  color: gray;
+}
+.pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 15px;
+}
+.pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box .to-do-box-aitem {
+  text-decoration: none;
+  border-right: 1px solid gray;
+}
+.pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box .to-do-box-aitem .to-do-item-title {
+  color: rgb(61, 78, 176);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box .to-do-box-aitem .to-do-item-desc {
+  text-align: center;
+  color: #484848;
+  font-size: 12px;
+}
+.pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box .to-do-box-aitem:nth-child(4), .pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box .to-do-box-aitem:last-child {
+  border-right: none;
+}
+.pharmacist-homepage-container .to-do-container .to-do-grid .to-do-box .to-do-box-aitem:hover {
+  background: rgba(180, 179, 179, 0.242);
+  border-radius: 5px;
+}/*# sourceMappingURL=pharmacist-homepage.css.map */

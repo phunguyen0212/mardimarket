@@ -1,0 +1,49 @@
+
+.pharmacist-menubar {
+    position: relative;
+    height: 100%;
+    background: white;
+    .pharmacist-dropdown-menu {
+        width: 300px;
+        background: white;
+        position: fixed;
+
+        // background: red;
+
+        // margin: 0 30px;
+        li {
+            position: relative;
+
+            a {
+                color: gray;
+                font-weight: 600;
+                display: block;
+                padding: 10px 10px;
+                font-size: 15px;
+                text-decoration: none;
+
+            }
+
+            .icon-menu {
+                position: absolute;
+                top: 8px;
+                right: 10px;
+                font-size: 14px;
+                padding: 8px;
+                cursor: pointer;
+            }
+
+            .pharmacist-sub-menu {
+                background: white;
+
+                li {
+                    a {
+                        padding-left: 28px;
+                        color: #9b9b9b;
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.admin-home-container {
+    height: 100vh;
+    .add-product-container {
+        height: 80vh;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        .add-product-card-general {
+            border: 1px solid rgba(188, 188, 188, 0.299);
+            width: 50%;
+            background-color: white;
+            height: 80vh;
+            padding-left: 20px ;
+            .add-product-card-general-heading {
+                height: 50px;
+                h2{
+                    font-size: 18px;
+                    color: #495057;
+                }
+            }
+
+            .add-product-card-general-body {
+                .add-product-card-general-body-form {
+                    .card-general-group {
+                        .card-general-row{
+                            display: flex;
+                            flex-direction: column;
+                            margin-bottom: 20px;
+                            .card-general-label {
+                                font-size: 15px;
+                            }
+    
+                            .card-general-input {
+                                border: 1px solid gray;
+                                width: 90%;
+                                padding: 8px;
+                                // border-radius: 15px;
+                                font-size: 15px;
+
+                            }
+                            .card-general-select{
+                                border: 1px solid gray;
+                                width: 200px;
+                                padding: 10px;
+                                // border-radius: 15px;
+                                font-size: 15px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .add-product-card-pricing {
+            border: 1px solid rgba(188, 188, 188, 0.299);
+            width: 45%;
+            background-color: white;
+            height: 80vh;
+            padding-left: 20px ;
+
+            .add-product-card-pricing-heading {
+                height: 50px;
+                h2{
+                    font-size: 18px;
+                    color: #495057;
+                }
+            }
+            .add-product-card-pricing-body {
+                .add-product-card-pricing-body-form {
+                    .card-pricing-group {
+                        .card-pricing-row{
+                            display: flex;
+                            flex-direction: column;
+                            margin-bottom: 20px;
+                            .card-pricing-label {
+                                font-size: 15px;
+                            }
+    
+                            .card-pricing-input {
+                                border: 1px solid gray;
+                                width: 90%;
+                                padding: 8px;
+                                // border-radius: 15px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .add-btn{
+        background-color: #3F80EA;
+        padding: 10px 20px;
+        color: white;
+        font-weight: 600;
+        margin-top: 20px;
+        cursor: pointer;
+        float: right;
+    }
+}

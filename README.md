@@ -13,7 +13,7 @@ trong database.config.js
 
 ==================================
 - Chạy môi trường trước -> run server -> run client.
-- Run server npm start
-- Run Client npm start
+- Run server npm start.
+- Run Client npm start.
 
 
